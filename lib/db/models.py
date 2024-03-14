@@ -24,6 +24,20 @@ class Group:
 
     def __repr__(self):
         return f"<Group {self.id}: {self.name}>"
+    
+class Class:
+    all = {}
+    def __init__(self,period, id = None):
+        self.id = id
+        self.period= period
+    def __repr__(self):
+        return f"<Class {self.id}: {self.period}>"
+    
+    
+
+    
+
+
 
 
 
